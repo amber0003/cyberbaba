@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
    <head>
+    <title>Scarlet by Playsales</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="AI-generated website">
@@ -356,869 +356,852 @@
       <!-- {bodyScripts} -->
 
    </body>
-</html><element id="49b8d395-3eea-4700-9556-4b576ab5b0de" data-section-id="49b8d395-3eea-4700-9556-4b576ab5b0de">
+</html><element id="2b56b5fd-245b-47e9-ab93-16877a086256" data-section-id="2b56b5fd-245b-47e9-ab93-16877a086256">
 
 <htmlCode>
 <div id="root">
-  <nav id="navbar" class="fixed w-full z-50 bg-neutral-900 border-b border-neutral-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
-        <div class="flex items-center">
-          <div class="flex-shrink-0">
-            <span class="text-2xl font-bold text-cyan-500">Amber Sharma</span>
-          </div>
-        </div>
-        <div class="hidden md:block">
-          <div class="ml-10 flex items-baseline space-x-4">
-            <a href="#hero" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
-            <a href="#about" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
-            <a href="#services" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
-            <a href="#projects" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Projects</a>
-            <a href="#blog" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Blog</a>
-            <a href="#testimonials" class="text-gray-300 hover:text-cyan-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Testimonials</a>
-          </div>
-        </div>
-        <div class="md:hidden">
-          <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-neutral-800 focus:outline-none">
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-neutral-900 border-b border-neutral-800">
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <a href="#hero" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-        <a href="#about" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">About</a>
-        <a href="#services" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">Services</a>
-        <a href="#projects" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-        <a href="#blog" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
-        <a href="#testimonials" class="text-gray-300 hover:text-cyan-500 block px-3 py-2 rounded-md text-base font-medium">Testimonials</a>
-      </div>
-    </div>
-  </nav>
+    <nav id="navbar" class="bg-neutral-900 text-white fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-serif">Scarlet by Playsales</a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="#rooms" class="hover:text-red-400 transition-colors">Rooms</a>
+                        <a href="#amenities" class="hover:text-red-400 transition-colors">Amenities</a>
+                        <a href="#dining" class="hover:text-red-400 transition-colors">Dining</a>
+                        <a href="#facilities" class="hover:text-red-400 transition-colors">facilities</a>
+                        <a href="#contact" class="hover:text-red-400 transition-colors">Contact</a>
+                    </div>
+                </div>
 
-  <script>
-    document.getElementById('mobile-menu-button').addEventListener('click', function() {
-      const mobileMenu = document.getElementById('mobile-menu');
-      mobileMenu.classList.toggle('hidden');
-    });
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md hover:text-red-400 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
 
-    // Close mobile menu when clicking on a link
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.getElementById('mobile-menu').classList.add('hidden');
-      });
-    });
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a href="#rooms" class="block hover:text-red-400 transition-colors py-2">Rooms</a>
+                    <a href="#amenities" class="block hover:text-red-400 transition-colors py-2">Amenities</a>
+                    <a href="#dining" class="block hover:text-red-400 transition-colors py-2">Dining</a>
+                    <a href="#facilities" class="block hover:text-red-400 transition-colors py-2">facilities</a>
+                    <a href="#contact" class="block hover:text-red-400 transition-colors py-2">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    // Add scroll event listener for navbar transparency
-    window.addEventListener('scroll', function() {
-      const navbar = document.getElementById('navbar');
-      if (window.scrollY > 0) {
-        navbar.classList.add('bg-opacity-95');
-      } else {
-        navbar.classList.remove('bg-opacity-95');
-      }
-    });
-  </script>
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuButton.addEventListener('click', () => {
+            const isMenuOpen = mobileMenu.classList.contains('hidden');
+            
+            if (isMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+                menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+            } else {
+                mobileMenu.classList.add('hidden');
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.getElementsByTagName('a');
+        Array.from(mobileLinks).forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+            });
+        });
+    </script>
 </div>
-</htmlCode></element><element id="fa580f6b-6501-4354-a184-f47aeaa75dde" data-section-id="fa580f6b-6501-4354-a184-f47aeaa75dde">
+</htmlCode></element><element id="3e5304f2-8be6-4d11-be7d-1a4d1030ffc7" data-section-id="3e5304f2-8be6-4d11-be7d-1a4d1030ffc7">
 
 <htmlCode>
 <div id="root">
-  <section id="hero" class="relative min-h-[70vh] flex items-center bg-neutral-900 overflow-hidden">
-    <!-- Animated background effect -->
-    <div class="absolute inset-0">
-      <div class="relative h-full w-full">
-        <div class="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10"></div>
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0)_0%,rgba(0,0,0,0.7)_100%)]"></div>
-        <!-- Animated grid pattern -->
-        <div class="absolute inset-0 opacity-20" style="background-image: linear-gradient(#22d3ee 1px, transparent 1px), linear-gradient(to right, #22d3ee 1px, transparent 1px); background-size: 40px 40px;"></div>
-      </div>
-    </div>
+    <section id="hero" class="bg-neutral-900 min-h-[70vh] pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 py-12">
+                <div class="w-full lg:w-1/2 text-white animate__animated animate__fadeInLeft">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif mb-6">
+                        Scarlet by Playsales
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8 font-light">
+                        Experience luxury and comfort at Scarlet by Playsales, the premier hotel in the heart of the city
+                    </p>
+                    <button class="bg-red-600 px-8 py-3 rounded-md hover:bg-red-700 transform hover:scale-105 transition-all text-lg animate__animated animate__pulse animate__infinite" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+                        Book Your Stay
+                    </button>
+                    
+                </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div class="animate__animated animate__fadeInLeft">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Protecting Digital Frontiers with Expertise & Innovation
-          </h1>
-          <p class="text-xl text-cyan-400 mb-8 font-medium">
-            Certified Cyber Security Analyst | VAPT Specialist | Ethical Hacker
-          </p>
-          <div class="flex flex-wrap gap-4 mb-12">
-            <a href="#footer" class="inline-flex items-center px-6 py-3 rounded-lg bg-cyan-600 hover:bg-cyan-700 text-white font-semibold transition-colors animate__animated animate__pulse animate__infinite">
-              Get a Free Consultation
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-              </svg>
-            </a>
-            <a href="#projects" class="inline-flex items-center px-6 py-3 rounded-lg border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white font-semibold transition-all">
-              Explore My Work
-            </a>
-          </div>
-          
-          <!-- Stats -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div class="p-4 bg-neutral-800/50 rounded-lg backdrop-blur-sm animate__animated animate__fadeInUp">
-              <div class="text-3xl font-bold text-cyan-400 mb-2">500+</div>
-              <div class="text-gray-300">Vulnerabilities Reported</div>
+                <div class="w-full lg:w-1/2 rounded-lg overflow-hidden shadow-2xl animate__animated animate__fadeInRight">
+                    <div class="relative aspect-video">
+                        <div class="absolute inset-0 bg-gradient-to-r from-neutral-900/20 to-transparent z-10"></div>
+                        <video 
+                            class="w-full h-full object-cover"
+                            autoplay 
+                            loop 
+                            muted 
+                            playsinline>
+                            <source src="/home/jaguar/Documents/Scarlet By Playsales 𝗕𝗢𝗢𝗞 Indore Hotel.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
             </div>
-            <div class="p-4 bg-neutral-800/50 rounded-lg backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-1s">
-              <div class="text-3xl font-bold text-purple-400 mb-2">100+</div>
-              <div class="text-gray-300">Organizations Secured</div>
+
+            <div class="flex justify-center space-x-8 pb-8 text-white">
+                <div class="text-center animate__animated animate__fadeInUp">
+                    <span class="block text-2xl font-bold">20</span>
+                    <span class="text-gray-400">Luxury Rooms</span>
+                </div>
+                <div class="text-center animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <span class="block text-2xl font-bold">4.9</span>
+                    <span class="text-gray-400">Guest Rating</span>
+                </div>
+                <div class="text-center animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <span class="block text-2xl font-bold">24/7</span>
+                    <span class="text-gray-400">Service</span>
+                </div>
             </div>
-            <div class="p-4 bg-neutral-800/50 rounded-lg backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-2s">
-              <div class="text-3xl font-bold text-cyan-400 mb-2">15+</div>
-              <div class="text-gray-300">Certifications</div>
-            </div>
-          </div>
         </div>
+
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden">
+            <svg class="relative block w-full h-[50px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="fill-white"></path>
+            </svg>
+        </div>
+    </section>
+</div>
+</htmlCode></element><element id="f6a12c60-10ae-47d8-bce2-357432d94185" data-section-id="f6a12c60-10ae-47d8-bce2-357432d94185">
+
+<htmlCode>
+    <div id="root">
+        <section id="rooms" class="bg-white py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 animate__animated animate__fadeIn">
+                    <h2 class="text-4xl font-serif text-neutral-900 mb-4">Luxury Accommodations</h2>
+                    <p class="text-neutral-600 text-lg">Choose your perfect stay from our elegant room selections</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 mt-3">
+                    <!-- Deluxe Suite -->
+                    <div class="bg-neutral-50 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp">
+                        <div class="h-64 bg-neutral-300 relative">
+                            <img src="/home/jaguar/Pictures/202401051033316545-2730add5-fc62-4f97-817e-6ba6157c782b.avif" alt="Deluxe Suite" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-neutral-900/20"></div>
+                            <div class="absolute top-4 right-4 bg-red-600 text-white px-4 py-1 rounded-full">
+                                Popular
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-serif text-neutral-900 mb-4">Play Deluxe</h3>
+                            <ul class="space-y-2 mb-6 text-neutral-600">
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    King size bed
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Sofa/ Chair
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    160 square feet
+                                </li>
+                            </ul>
+                            <button class="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-colors" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+                                Reserve Now
+                            </button>                            
+                        </div>
+                    </div>
+    
+                    <!-- Executive Room -->
+                    <div class="bg-neutral-50 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                        <div class="h-64 bg-neutral-300 relative">
+                            <img src="/home/jaguar/Pictures/scarlet.webp" alt="Executive Room" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-neutral-900/20"></div>
+                            <div class="absolute top-4 right-4 bg-red-600 text-white px-4 py-1 rounded-full">
+                                Premium
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-serif text-neutral-900 mb-4">Play Suite</h3>
+                            <ul class="space-y-2 mb-6 text-neutral-600">
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Mini-Fridge
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    300 square feet 
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    In-room Dining
+                                </li>
+                            </ul>
+                            <button class="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-colors" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+                                Reserve Now
+                            </button>                                                     
+                        </div>
+                    </div>
+    
+                    <!-- Standard Room -->
+                    <div class="bg-neutral-50 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                        <div class="h-64 bg-neutral-300 relative">
+                            <img src="/home/jaguar/Pictures/carlettt.jpg" alt="Standard Room" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-neutral-900/20"></div>
+                            <div class="absolute top-4 right-4 bg-red-600 text-white px-4 py-1 rounded-full">
+                                Classic
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-serif text-neutral-900 mb-4">Play Premium</h3>
+                            <ul class="space-y-2 mb-6 text-neutral-600">
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Air conditioning
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Private entrance
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    200 square feet
+                                </li>
+                            </ul>
+                            <button class="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-colors" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+                                Reserve Now
+                            </button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+<htmlCode>
+<div id="root">
+    <section id="amenities" class="bg-neutral-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate__animated animate__fadeIn">
+                <h2 class="text-4xl font-serif mb-4">Premium Amenities</h2>
+                <p class="text-neutral-400 text-lg">Experience comfort and luxury with our world-class facilities</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- WiFi -->
+                <div class="bg-neutral-800 p-6 rounded-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">High-Speed WiFi</h3>
+                    <p class="text-neutral-400">Complimentary high-speed internet access throughout the property</p>
+                </div>
+
+                <!-- Safety Box -->
+                <div class="bg-neutral-800 p-6 rounded-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2zm6 4v8m-2-4h4"></path>
+                          </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">In-Room Dining</h3>
+                    <p class="text-neutral-400">Enjoy a variety of meals and snacks delivered to your room</p>
+                </div>
+
+                <!-- Air Conditioning -->
+                <div class="bg-neutral-800 p-6 rounded-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Climate Control</h3>
+                    <p class="text-neutral-400">Modern climate control system in every room</p>
+                </div>
+
+                <!-- Terrace Views -->
+                <div class="bg-neutral-800 p-6 rounded-lg transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">MALIBU Views</h3>
+                    <p class="text-neutral-400">Malibu-inspired rooftop with stunning views, bar, and relaxed atmosphere</p>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center">
+            </div>
+        </div>
+    </section>
+</div>
+</htmlCode></element><element id="1a7de06a-e52c-4856-8543-88ca04c0f47a" data-section-id="1a7de06a-e52c-4856-8543-88ca04c0f47a">
+
+<htmlCode>
+<div id="root">
+    <section id="dining" class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate__animated animate__fadeIn">
+                <h2 class="text-4xl font-serif text-neutral-900 mb-4">Culinary Excellence</h2>
+                <p class="text-neutral-600 text-lg">Indulge in exceptional dining experiences</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Fine Dining Restaurant -->
+                <div class="group animate__animated animate__fadeInUp">
+                    <div class="relative h-80 bg-neutral-200 rounded-lg overflow-hidden mb-6">
+                        <img 
+                        src="https://lh3.googleusercontent.com/p/AF1QipPl5Wb3pQx-346tUNv7ig6ah4Mzk1htjnq0xLjQ=s680-w680-h510" 
+                        alt="Hotel Exterior" 
+                        class="absolute inset-0 w-full h-full object-cover"
+                        onerror="this.style.display='none';"
+                    >
+                        <div class="absolute inset-0 bg-neutral-900/20 group-hover:bg-neutral-900/40 transition-all"></div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <h3 class="text-2xl font-serif mb-2">The Scarlet- In room Dining</h3>
+                            <p class="text-sm">Fine Dining Experience</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-neutral-600 mb-4">Savor gourmet dining in the comfort of your room.</p>
+                        <p class="text-red-600 font-semibold">24/7</p>
+                    </div>
+                </div>
+
+                <!-- Café & Bistro -->
+                <div class="group animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="relative h-80 bg-neutral-200 rounded-lg overflow-hidden mb-6">
+                        <img 
+                        src="https://cdn3.shopvii.com/1231/985/scarlet_new_img6.webp" 
+                        alt="Hotel Exterior" 
+                        class="absolute inset-0 w-full h-full object-cover"
+                        onerror="this.style.display='none';"
+                    >
+                        <div class="absolute inset-0 bg-neutral-900/20 group-hover:bg-neutral-900/40 transition-all"></div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <h3 class="text-2xl font-serif mb-2">SALT</h3>
+                            <p class="text-sm">Casual Dining - Pure vegetarian Restaurant</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-neutral-600 mb-4">Light meals with mouth watering Pure vegetarian Indian Food</p>
+                        <p class="text-red-600 font-semibold">Open 7:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Rooftop Bar -->
+                <div class="group animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="relative h-80 bg-neutral-200 rounded-lg overflow-hidden mb-6">
+                        <img 
+                        src="https://i.pinimg.com/736x/a2/08/f1/a208f19a6afba2148463b5a38f537bf6.jpg" 
+                        alt="Hotel Exterior" 
+                        class="absolute inset-0 w-full h-full object-cover"
+                        onerror="this.style.display='none';"
+                    >
+                        <div class="absolute inset-0 bg-neutral-900/20 group-hover:bg-neutral-900/40 transition-all"></div>
+                        <div class="absolute bottom-4 left-4 right-4 text-white">
+                            <h3 class="text-2xl font-serif mb-2">MALIBU - Sky Lounge</h3>
+                            <p class="text-sm">Rooftop Bar & Tapas</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-neutral-600 mb-4">Craft cocktails and tapas with panoramic city views</p>
+                        <p class="text-red-600 font-semibold">Open 11:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center">
+                <button class="bg-red-600 text-white px-8 py-3 rounded-md hover:bg-red-700 transition-all transform hover:scale-105 animate__animated animate__pulse animate__infinite" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+                    Reserve a Table
+                </button>                
+            </div>
+
+            <!-- Special Features -->
+            <div class="grid md:grid-cols-4 gap-8 mt-20">
+                <div class="text-center animate__animated animate__fadeInUp">
+                    <div class="text-red-600 mb-2">
+                        <svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold text-neutral-900">Private Events</h4>
+                </div>
+
+                <div class="text-center animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="text-red-600 mb-2">
+                        <svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold text-neutral-900">Dietary Options</h4>
+                </div>
+
+                <div class="text-center animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="text-red-600 mb-2">
+                        <svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold text-neutral-900">Master Chefs</h4>
+                </div>
+
+                <div class="text-center animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <div class="text-red-600 mb-2">
+                        <svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold text-neutral-900">Quality Assured</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</htmlCode></element><element id="d9edefc2-535d-4646-9856-83518736fc78" data-section-id="d9edefc2-535d-4646-9856-83518736fc78">
+
+    <div id="root">
+        <section id="facilities" class="bg-neutral-900 py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 animate__animated animate__fadeIn">
+                    <h2 class="text-4xl font-serif text-white mb-4">Basic Facilities</h2>
+                    <p class="text-neutral-400 text-lg">We provide everything you need for a comfortable stay</p>
+                </div>
+    
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Left Column (Bullet Points) -->
+                    <div class="space-y-8">
+                        <!-- Essential Facilities -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Essential Facilities</h3>
+                                <ul class="text-neutral-400 list-disc pl-6">
+                                    <li>Smoking Rooms</li>
+                                    <li>Air Conditioning</li>
+                                    <li>Power Backup</li>
+                                    <li>Smoke Detector</li>
+                                    <li>Room Service</li>
+                                    <li>Wi-Fi</li>
+                                    <li>Parking</li>
+                                    <li>Daily Housekeeping</li>
+                                    <li>Minibar</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- Safety & Security -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Safety & Security</h3>
+                                <ul class="text-neutral-400 list-disc pl-6">
+                                    <li>Fire Extinguishers</li>
+                                    <li>CCTV Surveillance</li>
+                                    <li>Security Alarms</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- General Services -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">General Services</h3>
+                                <ul class="text-neutral-400 list-disc pl-6">
+                                    <li>Luggage Storage</li>
+                                    <li>Wake-up Call</li>
+                                    <li>Concierge Service</li>
+                                    <li>Doctor on Call</li>
+                                    <li>Wheelchair Services</li>
+                                    <li>Room Cleaning</li>
+                                    <li>Taxi Service</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- Common Areas -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Common Areas</h3>
+                                <ul class="text-neutral-400 list-disc pl-6">
+                                    <li>Seating Area</li>
+                                    <li>Lounge</li>
+                                    <li>Reception</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right Column (Non-Bullet Points) -->
+                    <div class="space-y-8">
+                        <!-- Transport -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Airport Transport facilities</h3>
+                                <p class="text-neutral-400">We offer paid airport transport services to make your journey smooth and convenient. Contact the reception for booking details.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Payment Services -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Payment Services</h3>
+                                <p class="text-neutral-400">We provide easy payment services, including an ATM available at the property for your convenience.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Health & Wellness -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Health & Wellness</h3>
+                                <p class="text-neutral-400">We provide first-aid services and ensure your well-being during your stay.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Food & Drinks -->
+                        <div class="bg-neutral-800 rounded-lg overflow-hidden group animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                            <div class="p-6 text-white">
+                                <h3 class="text-xl font-semibold mb-2">Dining Options</h3>
+                                <ul class="text-neutral-400 list-disc pl-6">
+                                    <li>Restaurant</li>
+                                    <li>Dining Area</li>
+                                    <li>Coffee Shop</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  
         
-        <div class="hidden lg:block animate__animated animate__fadeInRight">
-          <div class="relative w-full h-[500px]">
-            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg transform rotate-3 scale-105"></div>
-            <div class="absolute inset-0 bg-neutral-800/90 rounded-lg backdrop-blur-sm border border-cyan-500/20">
-              <!-- Decorative elements -->
-              <div class="absolute top-4 left-4 flex space-x-2">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <div class="p-8">
-                <div class="font-mono text-sm text-cyan-400">
-                  <div class="typing-effect">> Initializing security protocols...</div>
-                  <div class="typing-effect-2">> Scanning for vulnerabilities...</div>
-                  <div class="typing-effect-3">> Securing digital assets...</div>
+    <div id="root">
+        <section id="gallery" class="bg-white py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Gallery Header -->
+                <div class="text-center mb-16 animate__animated animate__fadeIn">
+                    <h2 class="text-4xl font-serif text-neutral-900 mb-4">Our Gallery</h2>
+                    <p class="text-neutral-600 text-lg">Glimpses of luxury and comfort</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <style>
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
     
-    .typing-effect {
-      overflow: hidden;
-      white-space: nowrap;
-      margin-bottom: 1rem;
-      animation: typing 2s steps(40, end);
-    }
+                <!-- Gallery Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Image 1: Hotel Exterior -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/about_scarlet.webp" 
+                            alt="Hotel Exterior" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                    </div>
     
-    .typing-effect-2 {
-      overflow: hidden;
-      white-space: nowrap;
-      margin-bottom: 1rem;
-      animation: typing 2s steps(40, end);
-      animation-delay: 2s;
-      opacity: 0;
-      animation-fill-mode: forwards;
-    }
+                    <!-- Image 2: Luxury Suite -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_new_img4.webp" 
+                            alt="Luxury Suite" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                    </div>
     
-    .typing-effect-3 {
-      overflow: hidden;
-      white-space: nowrap;
-      margin-bottom: 1rem;
-      animation: typing 2s steps(40, end);
-      animation-delay: 4s;
-      opacity: 0;
-      animation-fill-mode: forwards;
-    }
-  </style>
-
-  <script>
-    // Add scroll reveal animation
-    window.addEventListener('scroll', () => {
-      const reveals = document.querySelectorAll('.animate__animated');
-      reveals.forEach(reveal => {
-        const elementTop = reveal.getBoundingClientRect().top;
-        const elementVisible = 150;
-        if (elementTop < window.innerHeight - elementVisible) {
-          reveal.style.visibility = 'visible';
-          reveal.style.opacity = '1';
-        }
-      });
-    });
-  </script>
-</div>
-</htmlCode></element><element id="b9ddd149-84a9-4a8c-a3e9-49dc5c47f894" data-section-id="b9ddd149-84a9-4a8c-a3e9-49dc5c47f894">
-
-<htmlCode>
-<div id="root">
-  <section id="about" class="bg-neutral-800 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Column - Profile Info -->
-        <div class="animate__animated animate__fadeInLeft">
-          <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">About Me</h2>
-          <div class="prose prose-invert max-w-none">
-            <p class="text-gray-300 mb-6">
-              As a dedicated Cybersecurity Professional, I specialize in identifying and addressing digital vulnerabilities. With a proven track record in penetration testing and security assessments, I've helped numerous organizations strengthen their security posture.
-            </p>
-            <p class="text-gray-300 mb-6">
-              My expertise extends across various domains of cybersecurity, from network security to application testing. I've successfully identified and reported critical vulnerabilities to major tech companies including Google, Apple, and OpenAI.
-            </p>
-          </div>
-
-          <!-- Achievement Cards -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-            <div class="bg-neutral-900 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500 transition-all duration-300">
-              <div class="text-cyan-400 mb-2">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-                </svg>
-              </div>
-              <h3 class="text-lg font-semibold text-white mb-2">Security Research</h3>
-              <p class="text-gray-400">Discovered critical vulnerabilities in major platforms</p>
-            </div>
-
-            <div class="bg-neutral-900 p-6 rounded-lg border border-purple-500/20 hover:border-purple-500 transition-all duration-300">
-              <div class="text-purple-400 mb-2">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-                </svg>
-              </div>
-              <h3 class="text-lg font-semibold text-white mb-2">Certifications</h3>
-              <p class="text-gray-400">Industry-recognized security certifications</p>
-            </div>
-          </div>
-
-          <!-- Skills -->
-          <div class="mt-8">
-            <h3 class="text-xl font-semibold text-white mb-4">Technical Expertise</h3>
-            <div class="space-y-4">
-              <div class="skill-bar">
-                <div class="flex justify-between mb-1">
-                  <span class="text-gray-300">Penetration Testing</span>
-                  <span class="text-cyan-400">95%</span>
-                </div>
-                <div class="h-2 bg-neutral-700 rounded-full">
-                  <div class="h-2 bg-cyan-500 rounded-full animate-skill-95"></div>
-                </div>
-              </div>
-
-              <div class="skill-bar">
-                <div class="flex justify-between mb-1">
-                  <span class="text-gray-300">Network Security</span>
-                  <span class="text-purple-400">90%</span>
-                </div>
-                <div class="h-2 bg-neutral-700 rounded-full">
-                  <div class="h-2 bg-purple-500 rounded-full animate-skill-90"></div>
-                </div>
-              </div>
-
-              <div class="skill-bar">
-                <div class="flex justify-between mb-1">
-                  <span class="text-gray-300">Security Assessment</span>
-                  <span class="text-cyan-400">85%</span>
-                </div>
-                <div class="h-2 bg-neutral-700 rounded-full">
-                  <div class="h-2 bg-cyan-500 rounded-full animate-skill-85"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Column - Visual Elements -->
-        <div class="relative animate__animated animate__fadeInRight">
-          <div class="aspect-square bg-neutral-900 rounded-2xl p-8 border border-cyan-500/20 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-purple-500/10"></div>
-            <div class="relative z-10">
-              <div class="grid grid-cols-2 gap-4">
-                <div class="bg-neutral-800/50 p-4 rounded-lg backdrop-blur-sm">
-                  <div class="text-cyan-400 text-4xl font-bold mb-2">5+</div>
-                  <div class="text-gray-300">Years Experience</div>
-                </div>
-                <div class="bg-neutral-800/50 p-4 rounded-lg backdrop-blur-sm">
-                  <div class="text-purple-400 text-4xl font-bold mb-2">50+</div>
-                  <div class="text-gray-300">Projects Completed</div>
-                </div>
-                <div class="bg-neutral-800/50 p-4 rounded-lg backdrop-blur-sm">
-                  <div class="text-cyan-400 text-4xl font-bold mb-2">100+</div>
-                  <div class="text-gray-300">Happy Clients</div>
-                </div>
-                <div class="bg-neutral-800/50 p-4 rounded-lg backdrop-blur-sm">
-                  <div class="text-purple-400 text-4xl font-bold mb-2">20+</div>
-                  <div class="text-gray-300">Recognition Awards</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <style>
-    @keyframes skillFill95 {
-      from { width: 0; }
-      to { width: 95%; }
-    }
+                    <!-- Image 3: Swimming Pool -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_by_playsales_galnew1.webp" 
+                            alt="Swimming Pool" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                           
+                        </div>
+                    </div>
     
-    @keyframes skillFill90 {
-      from { width: 0; }
-      to { width: 90%; }
-    }
+                    <!-- Image 4: Restaurant -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.3s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_new_img1.webp" 
+                            alt="Restaurant" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                           
+                        </div>
+                    </div>
     
-    @keyframes skillFill85 {
-      from { width: 0; }
-      to { width: 85%; }
-    }
+                    <!-- Image 5: Spa -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_gal_new5.webp" 
+                            alt="Spa" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                          
+                        </div>
+                    </div>
+    
+                    <!-- Image 6: Terrace View -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_new_img6.webp" 
+                            alt="Terrace View" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
 
-    .animate-skill-95 {
-      animation: skillFill95 1.5s ease-out forwards;
-    }
+                        </div>
+                    </div>
 
-    .animate-skill-90 {
-      animation: skillFill90 1.5s ease-out forwards;
-    }
+                    <!-- Image 7: Terrace View -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_gal_new6.webp" 
+                            alt="Terrace View" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
 
-    .animate-skill-85 {
-      animation: skillFill85 1.5s ease-out forwards;
-    }
-  </style>
+                        </div>
+                    </div>
 
-  <script>
-    const observerOptions = {
-      threshold: 0.5
-    };
+                    <!-- Image 8: Terrace View -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+                        <img 
+                            src="https://lh3.googleusercontent.com/p/AF1QipPqGcNxfdE7K1JSaf3md7ajhA_Mo9a4_wIlpCCJ=s680-w680-h510" 
+                            alt="Terrace View" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-skill-95', 'animate-skill-90', 'animate-skill-85');
-        }
-      });
-    }, observerOptions);
+                        </div>
+                    </div>
 
-    document.querySelectorAll('.skill-bar').forEach(bar => {
-      observer.observe(bar);
-    });
-  </script>
+                    <!-- Image 9: Terrace View -->
+                    <div class="group relative aspect-square bg-neutral-200 overflow-hidden animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+                        <img 
+                            src="https://cdn3.shopvii.com/1231/985/scarlet_by_playsales_galnew4.webp" 
+                            alt="Terrace View" 
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.display='none';"
+                        >
+                        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
 </div>
-</htmlCode></element><element id="5ae72d74-4676-4af3-8901-adec7f256f3a" data-section-id="5ae72d74-4676-4af3-8901-adec7f256f3a">
+</htmlCode></element><element id="8602df70-67a5-4c3d-9fb7-cad1d463ac2c" data-section-id="8602df70-67a5-4c3d-9fb7-cad1d463ac2c">
 
 <htmlCode>
 <div id="root">
-  <section id="services" class="bg-neutral-900 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16 animate__animated animate__fadeInUp">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Comprehensive Cybersecurity Solutions</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">Protecting your digital assets with cutting-edge security solutions and expert consultation</p>
-      </div>
+    <section id="contact" class="bg-neutral-900 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate__animated animate__fadeIn">
+                <h2 class="text-4xl font-serif text-white mb-4">Get in Touch</h2>
+                <p class="text-neutral-400 text-lg">We're here to assist you with your booking and inquiries</p>
+            </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- VAPT Service Card -->
-        <div class="group bg-neutral-800 rounded-xl p-6 hover:bg-gradient-to-br from-neutral-800 to-neutral-900 transition-all duration-300 animate__animated animate__fadeInUp">
-          <div class="h-16 w-16 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-            <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-white mb-4">Vulnerability Assessment & Penetration Testing</h3>
-          <p class="text-gray-400 mb-6">Comprehensive security assessment to identify and address vulnerabilities in your systems.</p>
-          <ul class="space-y-3 text-gray-300">
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Web Application Testing
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Network Infrastructure Assessment
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Security Compliance Checks
-            </li>
-          </ul>
-        </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-neutral-800 p-8 rounded-lg animate__animated animate__fadeInLeft">
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-neutral-300 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-md text-white focus:outline-none focus:border-red-500 transition-colors">
+                        </div>
+                
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-neutral-300 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-md text-white focus:outline-none focus:border-red-500 transition-colors">
+                        </div>
+                
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-neutral-300 mb-2">Subject</label>
+                            <select id="subject" name="subject" required
+                                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-md text-white focus:outline-none focus:border-red-500 transition-colors">
+                                <option value="">Select a subject</option>
+                                <option value="deluxe">Play Deluxe</option>
+                                <option value="suite">Play Suite</option>
+                                <option value="premium">Play Premium</option>
+                                <option value="support">Customer Support</option>
+                            </select>
+                        </div>
+                
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-neutral-300 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required
+                                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-md text-white focus:outline-none focus:border-red-500 transition-colors"></textarea>
+                        </div>
+                
+                        <button type="submit" 
+                            class="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-all transform hover:scale-105 animate__animated animate__pulse animate__infinite">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                
 
-        <!-- API & Cloud Testing Card -->
-        <div class="group bg-neutral-800 rounded-xl p-6 hover:bg-gradient-to-br from-neutral-800 to-neutral-900 transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s">
-          <div class="h-16 w-16 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-            <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-white mb-4">API & Cloud Security Testing</h3>
-          <p class="text-gray-400 mb-6">Specialized security testing for APIs, AWS infrastructure, and cloud services.</p>
-          <ul class="space-y-3 text-gray-300">
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-purple-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              API Security Assessment
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-purple-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              AWS Infrastructure Testing
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-purple-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Cloud Security Optimization
-            </li>
-          </ul>
-        </div>
-
-        <!-- Network Security Card -->
-        <div class="group bg-neutral-800 rounded-xl p-6 hover:bg-gradient-to-br from-neutral-800 to-neutral-900 transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s">
-          <div class="h-16 w-16 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-            <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-white mb-4">Network Security & Incident Response</h3>
-          <p class="text-gray-400 mb-6">Proactive network security monitoring and rapid incident response services.</p>
-          <ul class="space-y-3 text-gray-300">
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              24/7 Security Monitoring
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Incident Response Planning
-            </li>
-            <li class="flex items-center">
-              <svg class="w-5 h-5 text-cyan-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-              </svg>
-              Threat Mitigation
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="mt-16 text-center">
-        <a href="#footer" class="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-semibold hover:from-cyan-600 hover:to-purple-600 transition-all duration-300 animate__animated animate__pulse animate__infinite">
-          Get Started
-          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
+                <!-- Contact Information -->
+                <div class="space-y-8 animate__animated animate__fadeInRight">
+                    <div class="bg-neutral-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-serif text-white mb-6">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start text-neutral-300">
+                                <svg class="w-6 h-6 mr-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                                <p>123 Luxury Avenue<br>City Center, 10001</p>
+                            </div>
+                            <div class="flex items-center text-neutral-300">
+                                <svg class="w-6 h-6 mr-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="flex items-center text-neutral-300">
+                                <svg class="w-6 h-6 mr-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <p>info@scarlethotel.com</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="bg-neutral-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-serif text-white mb-6">Business Hours</h3>
+                        <div class="space-y-2 text-neutral-300">
+                            <p>Reception: 24/7</p>
+                            <p>Restaurant: 6:30 AM - 11:00 PM</p>
+                            <p>MALIBU : 8:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                
+                    <!-- Google Maps Button -->
+                    <div class="bg-neutral-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-serif text-white mb-6">Find Us</h3>
+                        <a href="https://www.google.com/maps/place/SCARLET+BY+PLAYSALES/@22.776515,75.91355,14z/data=!4m9!3m8!1s0x3962e2c959d29d3d:0xaa3582270ae573cf!5m2!4m1!1i2!8m2!3d22.766102!4d75.9067819!16s%2Fg%2F11vp_9g62q?entry=tts&g_ep=EgoyMDI0MTAyMy4wIPu8ASoASAFQAw%3D%3D" target="_blank">
+                            <button class="w-full py-2 px-4 bg-red-600 text-white rounded-lg hover:bg-red-700">
+                                View on Google Maps
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Form submission logic would go here
+                console.log('Form submitted');
+            });
+        </script>
+    </section>
 </div>
-</htmlCode></element><element id="4a8d03cf-4732-4113-bbf2-16548de3d598" data-section-id="4a8d03cf-4732-4113-bbf2-16548de3d598">
+</htmlCode></element><element id="4317105a-6690-4b69-8622-7a4cee3d8c8d" data-section-id="4317105a-6690-4b69-8622-7a4cee3d8c8d">
 
 <htmlCode>
 <div id="root">
-  <section id="projects" class="bg-neutral-800 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16 animate__animated animate__fadeInUp">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Key Projects & Contributions</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">Innovative security tools and automation solutions</p>
-      </div>
+    <footer id="footer" class="bg-neutral-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Hotel Info -->
+                <div class="animate__animated animate__fadeIn">
+                    <h3 class="text-xl font-serif mb-4">Scarlet by Playsales</h3>
+                    <p class="text-neutral-400 mb-4">Experience luxury and comfort at Scarlet by Playsales, the premier hotel in the heart of the city.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-neutral-400 hover:text-red-500 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                        </a>
+                        <a href="#" class="text-neutral-400 hover:text-red-500 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="text-neutral-400 hover:text-red-500 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+                    </div>
+                </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- SSH Hacking Script Project -->
-        <div class="group bg-neutral-900 rounded-xl overflow-hidden hover:transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInLeft">
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-4">
-              <div class="flex items-center space-x-2">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <svg class="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-              </svg>
+                <!-- Quick Links -->
+                <div class="animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+                    <h3 class="text-xl font-serif mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-neutral-400">
+                        <li><a href="#rooms" class="hover:text-red-500 transition-colors">Rooms & Suites</a></li>
+                        <li><a href="#dining" class="hover:text-red-500 transition-colors">Dining</a></li>
+                        <li><a href="#amenities" class="hover:text-red-500 transition-colors">Amenities</a></li>
+                        <li><a href="#facilities" class="hover:text-red-500 transition-colors">facilities</a></li>
+                    </ul>
+                </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 mt-8 border-t border-neutral-800">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-neutral-400 text-sm mb-4 md:mb-0">
+                        © 2024 Scarlet by Playsales. All rights reserved.
+                    </p>
+
+                </div>
             </div>
-            <h3 class="text-xl font-semibold text-white mb-3">SSH Hacking Script</h3>
-            <p class="text-gray-400 mb-4">Automated SSH brute-force attack tool with advanced features for security testing.</p>
-            <div class="space-y-2 mb-6">
-              <div class="flex items-center text-sm text-gray-400">
-                <span class="inline-block w-2 h-2 rounded-full bg-cyan-400 mr-2"></span>
-                Python
-              </div>
-              <div class="flex items-center text-sm text-gray-400">
-                <span class="inline-block w-2 h-2 rounded-full bg-purple-400 mr-2"></span>
-                Automation
-              </div>
-            </div>
-            <a href="https://github.com/Hacker8833/ssh-hacking-using-nmap" class="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors">
-              View on GitHub
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-              </svg>
-            </a>
-          </div>
-          <div class="px-6 py-4 bg-neutral-900 border-t border-neutral-800">
-            <div class="flex items-center space-x-4">
-              <span class="px-3 py-1 text-sm text-cyan-400 bg-cyan-400/10 rounded-full">Security</span>
-              <span class="px-3 py-1 text-sm text-purple-400 bg-purple-400/10 rounded-full">Network</span>
-            </div>
-          </div>
         </div>
-
-        <!-- Nikto Automation Script Project -->
-        <div class="group bg-neutral-900 rounded-xl overflow-hidden hover:transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInRight">
-          <div class="p-6">
-            <div class="flex items-center justify-between mb-4">
-              <div class="flex items-center space-x-2">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold text-white mb-3">Nikto Automation Script</h3>
-            <p class="text-gray-400 mb-4">Streamlined vulnerability scanning tool with enhanced reporting capabilities.</p>
-            <div class="space-y-2 mb-6">
-              <div class="flex items-center text-sm text-gray-400">
-                <span class="inline-block w-2 h-2 rounded-full bg-cyan-400 mr-2"></span>
-                Shell Script
-              </div>
-              <div class="flex items-center text-sm text-gray-400">
-                <span class="inline-block w-2 h-2 rounded-full bg-purple-400 mr-2"></span>
-                Security Testing
-              </div>
-            </div>
-            <a href="https://github.com/Hacker8833/Web-hacking-using-nikto" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
-              View on GitHub
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-              </svg>
-            </a>
-          </div>
-          <div class="px-6 py-4 bg-neutral-900 border-t border-neutral-800">
-            <div class="flex items-center space-x-4">
-              <span class="px-3 py-1 text-sm text-cyan-400 bg-cyan-400/10 rounded-full">Testing</span>
-              <span class="px-3 py-1 text-sm text-purple-400 bg-purple-400/10 rounded-full">Automation</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- More Projects Button -->
-      <div class="text-center mt-12">
-        <a href="https://github.com/Hacker8833" class="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-semibold hover:from-cyan-600 hover:to-purple-600 transition-all duration-300 animate__animated animate__pulse animate__infinite">
-          View More Projects
-          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
-</htmlCode></element><element id="c851054e-f4d1-40a3-b4db-97cdd7354ca6" data-section-id="c851054e-f4d1-40a3-b4db-97cdd7354ca6">
-
-<htmlCode>
-<div id="root">
-  <section id="blog" class="bg-neutral-900 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16 animate__animated animate__fadeInUp">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Cybersecurity Insights & Trends</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">Exploring the latest in ethical hacking, VAPT, and cybersecurity strategies</p>
-      </div>
-
-      <!-- Blog Categories -->
-      <div class="flex flex-wrap justify-center gap-4 mb-12 animate__animated animate__fadeInUp">
-        <button class="px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 transition-all active">All Topics</button>
-        <button class="px-4 py-2 rounded-full bg-neutral-800 text-gray-400 hover:bg-neutral-700 transition-all">Ethical Hacking</button>
-        <button class="px-4 py-2 rounded-full bg-neutral-800 text-gray-400 hover:bg-neutral-700 transition-all">VAPT</button>
-        <button class="px-4 py-2 rounded-full bg-neutral-800 text-gray-400 hover:bg-neutral-700 transition-all">Security Tips</button>
-      </div>
-
-      <!-- Blog Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Blog Card 1 -->
-        <div class="bg-neutral-800 rounded-xl overflow-hidden group hover:transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInUp">
-          <div class="h-48 bg-neutral-700 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 group-hover:scale-110 transition-transform duration-300"></div>
-            <div class="absolute bottom-4 left-4">
-              <span class="px-3 py-1 bg-cyan-500/90 text-white text-sm rounded-full">Security</span>
-            </div>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-white mb-3 group-hover:text-cyan-400 transition-colors">Understanding Modern VAPT Techniques</h3>
-            <p class="text-gray-400 mb-4">A comprehensive guide to modern vulnerability assessment and penetration testing methodologies.</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-500">5 mins read</span>
-              <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">Read More →</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Blog Card 2 -->
-        <div class="bg-neutral-800 rounded-xl overflow-hidden group hover:transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s">
-          <div class="h-48 bg-neutral-700 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 group-hover:scale-110 transition-transform duration-300"></div>
-            <div class="absolute bottom-4 left-4">
-              <span class="px-3 py-1 bg-purple-500/90 text-white text-sm rounded-full">Ethical Hacking</span>
-            </div>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-white mb-3 group-hover:text-purple-400 transition-colors">API Security Best Practices</h3>
-            <p class="text-gray-400 mb-4">Essential security measures for protecting your APIs from common vulnerabilities and attacks.</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-500">7 mins read</span>
-              <a href="#" class="text-purple-400 hover:text-purple-300 transition-colors">Read More →</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Blog Card 3 -->
-        <div class="bg-neutral-800 rounded-xl overflow-hidden group hover:transform hover:scale-[1.02] transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s">
-          <div class="h-48 bg-neutral-700 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 group-hover:scale-110 transition-transform duration-300"></div>
-            <div class="absolute bottom-4 left-4">
-              <span class="px-3 py-1 bg-cyan-500/90 text-white text-sm rounded-full">Tips</span>
-            </div>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-white mb-3 group-hover:text-cyan-400 transition-colors">Cloud Security Fundamentals</h3>
-            <p class="text-gray-400 mb-4">Key principles and strategies for securing cloud infrastructure and applications.</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-500">6 mins read</span>
-              <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">Read More →</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- View More Button -->
-      <div class="text-center mt-12">
-        <a href="https://medium.com/@ambersharma883" class="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-semibold hover:from-cyan-600 hover:to-purple-600 transition-all duration-300">
-          View All Articles
-          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    // Blog category filter functionality
-    document.querySelectorAll('[role="button"]').forEach(button => {
-      button.addEventListener('click', () => {
-        document.querySelectorAll('[role="button"]').forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
-      });
-    });
-  </script>
-</div>
-</htmlCode></element><element id="730a9077-8884-4462-a75b-3b83a4211ab6" data-section-id="730a9077-8884-4462-a75b-3b83a4211ab6">
-
-<htmlCode>
-<div id="root">
-  <section id="testimonials" class="bg-neutral-800 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16 animate__animated animate__fadeInUp">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Recognition & Achievements</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">Trusted by leading organizations worldwide</p>
-      </div>
-
-      <!-- Hall of Fame Section -->
-      <div class="mb-20">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-neutral-900 rounded-xl p-6 border border-cyan-500/20 hover:border-cyan-500 transition-all duration-300 animate__animated animate__fadeInUp">
-            <div class="flex items-center justify-between mb-4">
-              <svg class="w-12 h-12 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-              </svg>
-              <span class="text-sm text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-full">Security Research</span>
-            </div>
-            <h3 class="text-xl font-semibold text-white mb-2">Google Hall of Fame</h3>
-            <p class="text-gray-400">Recognized for identifying critical security vulnerabilities in Google's infrastructure.</p>
-          </div>
-
-          <div class="bg-neutral-900 rounded-xl p-6 border border-purple-500/20 hover:border-purple-500 transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s">
-            <div class="flex items-center justify-between mb-4">
-              <svg class="w-12 h-12 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-              </svg>
-              <span class="text-sm text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Bug Bounty</span>
-            </div>
-            <h3 class="text-xl font-semibold text-white mb-2">Apple Security Program</h3>
-            <p class="text-gray-400">Multiple vulnerability reports acknowledged and rewarded by Apple's security team.</p>
-          </div>
-
-          <div class="bg-neutral-900 rounded-xl p-6 border border-cyan-500/20 hover:border-cyan-500 transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s">
-            <div class="flex items-center justify-between mb-4">
-              <svg class="w-12 h-12 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-              </svg>
-              <span class="text-sm text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-full">Recognition</span>
-            </div>
-            <h3 class="text-xl font-semibold text-white mb-2">OpenAI Security</h3>
-            <p class="text-gray-400">Contributed to strengthening OpenAI's security through vulnerability discoveries.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Testimonials Carousel -->
-      <div class="relative">
-        <div class="testimonials-carousel">
-          <!-- Testimonial 1 -->
-          <div class="bg-neutral-900 rounded-xl p-8 mx-4 animate__animated animate__fadeIn">
-            <div class="flex flex-col h-full">
-              <div class="flex-grow">
-                <svg class="w-8 h-8 text-cyan-400 mb-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-                <p class="text-gray-300 mb-6">Working with Amber was exceptional. Their expertise in cybersecurity helped us identify and fix critical vulnerabilities in our systems.</p>
-              </div>
-              <div>
-                <p class="text-white font-semibold">Ashish Barhate</p>
-                <p class="text-gray-400">Security Director, Pinak infosec</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial 2 -->
-          <div class="bg-neutral-900 rounded-xl p-8 mx-4 animate__animated animate__fadeIn">
-            <div class="flex flex-col h-full">
-              <div class="flex-grow">
-                <svg class="w-8 h-8 text-purple-400 mb-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-                <p class="text-gray-300 mb-6">Amber's penetration testing services were thorough and professional. They helped us strengthen our security posture significantly.</p>
-              </div>
-              <div>
-                <p class="text-white font-semibold">Abhijeet Akolekar</p>
-                <p class="text-gray-400">CEO, Pinak infosec</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    // Initialize testimonials carousel
-    const testimonialsCarousel = new Swiper('.testimonials-carousel', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-      },
-    });
-  </script>
-</div>
-</htmlCode></element><element id="ac5f3ca3-d0ea-45a2-a9ba-848815ee8bf6" data-section-id="ac5f3ca3-d0ea-45a2-a9ba-848815ee8bf6">
-
-<htmlCode>
-<div id="root">
-  <footer id="footer" class="bg-neutral-900 border-t border-neutral-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- About Section -->
-        <div class="animate__animated animate__fadeInUp">
-          <h3 class="text-2xl font-bold text-white mb-4">Amber Sharma</h3>
-          <p class="text-gray-400 mb-4">Certified Cybersecurity Professional specializing in penetration testing and security assessments.</p>
-          <div class="flex space-x-4">
-            <a href="https://github.com/Hacker8833" class="text-gray-400 hover:text-cyan-400 transition-colors">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
-            </a>
-            <a href="https://in.linkedin.com/in/amber-sharma-b9b791284" class="text-gray-400 hover:text-cyan-400 transition-colors">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-              </svg>
-            </a>
-            <a href="https://medium.com/@ambersharma883" class="text-gray-400 hover:text-cyan-400 transition-colors">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="animate__animated animate__fadeInUp animate__delay-1s">
-          <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
-          <ul class="space-y-2">
-            <li><a href="#about" class="text-gray-400 hover:text-cyan-400 transition-colors">About</a></li>
-            <li><a href="#services" class="text-gray-400 hover:text-cyan-400 transition-colors">Services</a></li>
-            <li><a href="#projects" class="text-gray-400 hover:text-cyan-400 transition-colors">Projects</a></li>
-            <li><a href="#blog" class="text-gray-400 hover:text-cyan-400 transition-colors">Blog</a></li>
-          </ul>
-        </div>
-
-        <!-- Services -->
-        <div class="animate__animated animate__fadeInUp animate__delay-2s">
-          <h4 class="text-lg font-semibold text-white mb-4">Services</h4>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">Penetration Testing</a></li>
-            <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">Security Assessment</a></li>
-            <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">API Security</a></li>
-            <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">Cloud Security</a></li>
-          </ul>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="animate__animated animate__fadeInUp animate__delay-3s">
-          <h4 class="text-lg font-semibold text-white mb-4">Contact</h4>
-          <ul class="space-y-2">
-            <li class="flex items-center text-gray-400">
-              <svg class="w-5 h-5 mr-2 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-              </svg>
-              ambersharma883@gmail.com
-            </li>
-            <li class="flex items-center text-gray-400">
-              <svg class="w-5 h-5 mr-2 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-              </svg>
-              +91-9752550348
-            </li>
-            <li class="flex items-center text-gray-400">
-              <svg class="w-5 h-5 mr-2 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-              </svg>
-              Indore, India
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="py-6 border-t border-neutral-800 text-center">
-        <p class="text-gray-400">&copy; 2024 Amber Sharma. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </div>
 </htmlCode></element>
             <div id="page_complete">
@@ -1228,3 +1211,45 @@
             </body>
             </html>
           
+
+            <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+            <script>
+                (function() {
+                    // Initialize EmailJS with your Public Key
+                    emailjs.init("x45AK83cDUnPwei-8");
+            
+                    // Add event listener for form submission
+                    document.getElementById("contactForm").addEventListener("submit", function(event) {
+                        event.preventDefault();  // Prevent the form from submitting normally
+            
+                        const form = event.target;
+            
+                        // Disable the submit button while the form is being sent
+                        const submitButton = form.querySelector('button[type="submit"]');
+                        submitButton.disabled = true;
+                        submitButton.textContent = "Sending...";
+            
+                        // Send form data to EmailJS using Service ID and Template ID
+                        emailjs.sendForm('service_bvvrwbo', 'template_siwx2da', form)
+                            .then(function(response) {
+                                // Success callback
+                                alert("Message sent successfully!");
+                                form.reset();  // Reset the form fields
+            
+                                // Re-enable the submit button
+                                submitButton.disabled = false;
+                                submitButton.textContent = "Send Message";
+            
+                                // Optionally, redirect to the #Home section after sending the message
+                                window.location.href = "#Home"; // Redirect to the section on the same page
+                            }, function(error) {
+                                // Error callback
+                                alert("Failed to send message. Please try again.");
+            
+                                // Re-enable the submit button
+                                submitButton.disabled = false;
+                                submitButton.textContent = "Send Message";
+                            });
+                    });
+                })();
+            </script>
